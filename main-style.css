@@ -26,6 +26,10 @@ a:visited {
     text-decoration: none;
     color: #551A8B;
 }
+.nav-link {
+    text-decoration: none !important;
+    color: black !important;
+}
 
 /* CSS Grid */
 .header {
