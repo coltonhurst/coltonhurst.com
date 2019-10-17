@@ -1,0 +1,92 @@
+/*
+    Colors
+
+    blue: #0066cc
+    firebrick
+    green: #009966
+*/
+
+/* default elements */
+body {
+    margin: 0px auto 0px auto;  /* top right bottom left */
+    padding: 25px 5px 25px 5px;
+
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+/* classes */
+.header {
+    background-color: #0066cc;
+    
+    margin-bottom: 25px;
+    padding-left: 5px;
+}
+.header-link {
+    text-decoration: none !important;
+    color: white !important;
+}
+.footer {
+    height: 100px;
+}
+
+/* links */
+a:link {
+    text-decoration: none;
+    color: #0066cc;
+}
+a:visited {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+/* media queries */
+@media only screen and (min-width: 50px) { body { width: 40px; } }
+@media only screen and (min-width: 60px) { body { width: 50px; } }
+@media only screen and (min-width: 70px) { body { width: 60px; } }
+@media only screen and (min-width: 80px) { body { width: 70px; } }
+@media only screen and (min-width: 90px) { body { width: 80px; } }
+@media only screen and (min-width: 100px) { body { width: 90px; } }
+@media only screen and (min-width: 110px) { body { width: 100px; } }
+@media only screen and (min-width: 120px) { body { width: 110px; } }
+@media only screen and (min-width: 130px) { body { width: 120px; } }
+@media only screen and (min-width: 140px) { body { width: 130px; } }
+@media only screen and (min-width: 150px) { body { width: 140px; } }
+@media only screen and (min-width: 160px) { body { width: 150px; } }
+@media only screen and (min-width: 170px) { body { width: 160px; } }
+@media only screen and (min-width: 180px) { body { width: 170px; } }
+@media only screen and (min-width: 190px) { body { width: 180px; } }
+@media only screen and (min-width: 200px) { body { width: 190px; } }
+@media only screen and (min-width: 210px) { body { width: 200px; } }
+@media only screen and (min-width: 220px) { body { width: 210px; } }
+@media only screen and (min-width: 230px) { body { width: 220px; } }
+@media only screen and (min-width: 240px) { body { width: 230px; } }
+@media only screen and (min-width: 250px) { body { width: 240px; } }
+@media only screen and (min-width: 260px) { body { width: 250px; } }
+@media only screen and (min-width: 270px) { body { width: 260px; } }
+@media only screen and (min-width: 280px) { body { width: 270px; } }
+@media only screen and (min-width: 290px) { body { width: 280px; } }
+@media only screen and (min-width: 300px) { body { width: 290px; } }
+@media only screen and (min-width: 310px) { body { width: 300px; } }
+@media only screen and (min-width: 320px) { body { width: 310px; } }
+@media only screen and (min-width: 330px) { body { width: 320px; } }
+@media only screen and (min-width: 340px) { body { width: 330px; } }
+@media only screen and (min-width: 350px) { body { width: 340px; } }
+@media only screen and (min-width: 360px) { body { width: 350px; } }
+@media only screen and (min-width: 370px) { body { width: 360px; } }
+@media only screen and (min-width: 380px) { body { width: 370px; } }
+@media only screen and (min-width: 390px) { body { width: 380px; } }
+@media only screen and (min-width: 400px) { body { width: 390px; } }
+@media only screen and (min-width: 450px) { body { width: 400px; padding: 25px 25px 25px 25px; } }
+@media only screen and (min-width: 500px) { body { width: 450px; } }
+@media only screen and (min-width: 550px) { body { width: 500px; } }
+@media only screen and (min-width: 600px) { body { width: 550px; } }
+@media only screen and (min-width: 650px) { body { width: 600px; } }
+@media only screen and (min-width: 700px) { body { width: 650px; } }
+@media only screen and (min-width: 750px) { body { width: 700px; } }
+@media only screen and (min-width: 800px) { body { width: 750px; } }
