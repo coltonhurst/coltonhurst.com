@@ -9,12 +9,23 @@ body {
 	padding: 0px 20px 0px 20px;
 	max-width: 700px;
 	font-family: Verdana, Geneva, sans-serif; 
-	font-size: 16px;
+    font-size: 16px;
+}
+
+p {
+    line-height: 22px;
 }
 
 h1 {
 	margin-bottom: 5px;
 	padding-bottom: 0px;
+}
+
+pre {
+    overflow-y: hidden;
+    overflow-x: auto;
+    padding: 15px;
+    background-color: lightgray;
 }
 
 a:link {
@@ -25,6 +36,28 @@ a:link {
 a:visited {
     text-decoration: none;
     color: var(--main-color);
+}
+
+.date {
+    color: #444444;
+}
+
+.post-container {
+    list-style-type: none;
+}
+
+.post-container>li {
+    margin: 10px 0px 10px 0px;
+}
+
+.post-title {
+    margin-bottom: 0px;
+}
+
+.post-subtitle {
+    margin-bottom: 1em;
+    color: #444444;
+    font-style: italic;
 }
 
 @media print {
