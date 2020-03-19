@@ -42,19 +42,19 @@ a:visited {
     color: #444444;
 }
 
-.post-container {
+.essay-container {
     list-style-type: none;
 }
 
-.post-container>li {
+.essay-container > li {
     margin: 10px 0px 10px 0px;
 }
 
-.post-title {
+.essay-title {
     margin-bottom: 0px;
 }
 
-.post-subtitle {
+.essay-subtitle {
     margin-bottom: 1em;
     color: #444444;
     font-style: italic;
