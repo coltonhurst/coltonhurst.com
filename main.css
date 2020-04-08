@@ -38,6 +38,10 @@ a:visited {
     color: var(--main-color);
 }
 
+.date {
+    font-style: italic;
+}
+
 .writing-container {
     list-style-type: none;
 }
