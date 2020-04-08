@@ -38,25 +38,20 @@ a:visited {
     color: var(--main-color);
 }
 
-.date {
-    color: #444444;
-}
-
-.essay-container {
+.writing-container {
     list-style-type: none;
 }
 
-.essay-container > li {
+.writing-container > li {
     margin: 10px 0px 10px 0px;
 }
 
-.essay-title {
+.writing-title {
     margin-bottom: 0px;
 }
 
-.essay-subtitle {
+.writing-subtitle {
     margin-bottom: 1em;
-    color: #444444;
     font-style: italic;
 }
 
@@ -64,4 +59,18 @@ a:visited {
 	body {
 		max-width: none;
 	}
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+        color: #d3d3d3;
+    }
+
+    pre {
+        background-color: #121212;
+        color: #d3d3d3;
+        border: 1px solid #d3d3d3;
+        border-radius: 12px;
+    }
 }
