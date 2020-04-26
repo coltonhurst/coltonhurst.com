@@ -1,0 +1,38 @@
+/* colors: blue: #0066cc | firebrick | green: #009966*/
+:root { --main-color: firebrick; }
+
+body {
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	margin: 0px auto 0px auto;
+	padding: 60px 40px 40px 40px;
+	max-width: 600px;
+	line-height: 26px;
+	color: #000000;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 50px;
+	margin: 0px;
+	padding: 0px;
+}
+
+ul {
+	list-style: none;
+	padding: 0px;
+}
+
+a:link {
+	text-decoration: none;
+	color: var(--main-color);
+}
+
+a:visited {
+	text-decoration: none;
+	color: var(--main-color);
+}
+
+.home {
+	margin: 10% auto 0px auto;
+	padding: 0px 40px 0px 40px;
+}
