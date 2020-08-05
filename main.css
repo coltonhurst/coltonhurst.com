@@ -4,23 +4,24 @@
 body {
 	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 	margin: 0px auto 0px auto;
-	padding: 60px 40px 40px 40px;
-	max-width: 600px;
+	padding: 40px 40px 40px 40px;
+	max-width: 500px;
 	line-height: 26px;
 	color: #000000;
 }
 
 h1 {
-	font-weight: 700;
+	font-weight: 600;
 	font-size: 50px;
 	line-height: 46px;
 	margin: 0px;
 	padding: 0px;
 }
 
-ul {
-	list-style: none;
-	padding: 0px;
+img {
+    display: block;
+    margin: 0px auto 0px auto;
+    padding: 15px 0px 15px 0px;
 }
 
 a:link {
@@ -31,4 +32,9 @@ a:link {
 a:visited {
 	text-decoration: none;
 	color: var(--main-color);
+}
+
+.clean-list {
+	list-style: none;
+	padding: 0px;
 }
