@@ -1,40 +1,48 @@
 /* colors: blue: #0066cc | firebrick | green: #009966*/
-:root { --main-color: firebrick; }
+:root { --main-color: #009966; }
 
 body {
-	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-	margin: 0px auto 0px auto;
-	padding: 40px 40px 40px 40px;
-	max-width: 500px;
-	line-height: 26px;
-	color: #000000;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0px auto 0px auto;
+    padding: 40px 40px 40px 40px;
+    max-width: 500px;
+    line-height: 26px;
 }
 
 h1 {
-	font-weight: 600;
-	font-size: 50px;
-	line-height: 46px;
-	margin: 0px;
-	padding: 0px;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 46px;
+    margin: 0px;
+    padding: 0px;
 }
 
 img {
     display: block;
     margin: 0px auto 0px auto;
     padding: 15px 0px 15px 0px;
+    width: 100%;
+    height: auto;
 }
 
 a:link {
-	text-decoration: none;
-	color: var(--main-color);
+    text-decoration: none;
+    color: var(--main-color);
 }
 
 a:visited {
-	text-decoration: none;
-	color: var(--main-color);
+    text-decoration: none;
+    color: var(--main-color);
 }
 
 .clean-list {
-	list-style: none;
-	padding: 0px;
+    list-style: none;
+    padding: 0px;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: #EEEEEE;
+        background-color: #222222;
+    }
 }
