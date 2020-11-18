@@ -25,6 +25,14 @@ img {
     height: auto;
 }
 
+pre {
+    padding: 10px;
+    line-height: 18px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    background-color: lightgrey;
+}
+
 a:link {
     text-decoration: none;
     color: var(--main-color);
@@ -40,9 +48,21 @@ a:visited {
     padding: 0px;
 }
 
+.writing-list span {
+    color: grey;
+}
+
+.writing-date {
+    color: grey;
+}
+
 @media (prefers-color-scheme: dark) {
     body {
         color: #EEEEEE;
         background-color: #222222;
+    }
+
+    pre {
+        background-color: #1e1e1e;
     }
 }
