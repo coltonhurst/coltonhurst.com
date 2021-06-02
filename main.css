@@ -56,7 +56,6 @@ a:visited {
     color: grey;
 }
 
-/*
 @media (prefers-color-scheme: dark) {
     body {
         color: #EEEEEE;
@@ -67,4 +66,3 @@ a:visited {
         background-color: #1e1e1e;
     }
 }
-*/
