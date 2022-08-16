@@ -53,6 +53,11 @@ a:visited {
     color: grey;
 }
 
+.project-item {
+    border: 1px solid grey;
+    padding: 15px;
+}
+
 /*@media (prefers-color-scheme: dark) {
     body {
         color: #EEEEEE;
