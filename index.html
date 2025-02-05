@@ -7,33 +7,72 @@
         <meta name="description" content="Colton Hurst's website">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="./main.css">
         <link href=data:, rel=icon>
+        <style>
+            :root {
+                --accent-color: #1E90FF;
+                --light-text-color: #1c1c1c;
+                --light-background-color: #eeeeee;
+                --dark-text-color: #eeeeee;
+                --dark-background-color: #1c1c1c;
+            }
+            body {
+                max-width: 600px;
+                margin: 0px auto 0px auto;
+                padding: 40px 40px 40px 40px;
+
+                font-family: Verdana,Geneva,sans-serif;
+                line-height: 26px;
+
+                color: var(--light-text-color);
+                background-color: var(--light-background-color);
+            }
+            a:link {
+                text-decoration: none;
+                color: var(--accent-color);
+            }
+            a:visited {
+                text-decoration: none;
+                color: var(--accent-color);
+            }
+            .container {
+                padding-left: 20px;
+                border-left: 5px solid var(--accent-color);
+            }
+            @media (prefers-color-scheme: dark) {
+                body {
+                    color: var(--dark-text-color);
+                    background-color: var(--dark-background-color);
+                }
+                a:link {
+                    color: var(--accent-color);
+                }
+                a:visited {
+                    color: var(--accent-color);
+                }
+            }
+        </style>
     </head>
     <body>
         <div class="container">
-            <div class="header">
-                Colton Hurst
-            </div>
-            <div class="nav">
-                <ol>
-                    <li class="nav-selected"><a href="./index.html" style="color: #eeeeee;">home</a></li>
-                    <li><a href="./now.html">now</a></li>
-                    <li><a href="./contact.html">contact</a></li>
-                </ol>
-            </div>
-            <div class="content">
-                <h2>Home</h2>
-                <p>
-                    Hi, I'm Colton. 👋 Welcome to my website!
-                </p>
-                <p>
-                    I'm currently a senior software engineer at <a href="https://www.bitwarden.com">Bitwarden</a>.
-                </p>
-                <p>
-                    I've been working in the software industry for over 10 years, and always have a lot to learn. I value open source software and working with others who are both passionate and humble.
-                </p>
-            </div>
+            <h1>Colton Hurst</h1>
+            <p>
+                Hi, I'm Colton 👋 Welcome to my website!
+            </p>
+            <h3>Work</h3>
+            <p>
+                I'm currently a senior software engineer at <a href="https://www.bitwarden.com">Bitwarden</a>.
+            </p>
+            <p>
+                I've been working in the software industry for over 10 years, and always have a lot to learn. I value open source software and working with others who are both passionate and humble.
+            </p>
+            <p>
+                I'm currently working with <a href="https://www.rust-lang.org">Rust</a>, integrating with platform native API's. Previously, most of my experience has been with back-end systems like web servers, databases, etc. I also have worked on front-ends with web technologies like Angular. I like using the right tool for the job, and learning everything I can about how things work under the covers.
+            </p>
+            <h3>Contact</h3>
+            <p>
+                You can find me on <a href="https://www.github.com/coltonhurst">GitHub</a> or <a href="https://www.linkedin.com/in/coltondhurst">LinkedIn</a>.
+            </p>
         </div>
     </body>
 </html>
