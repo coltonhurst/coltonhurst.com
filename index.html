@@ -11,6 +11,10 @@
         <style>
             :root {
                 --accent-color: #1E90FF;
+                --light-text-color: #1c1c1c;
+                --light-background-color: #eeeeee;
+                --dark-text-color: #eeeeee;
+                --dark-background-color: #1c1c1c;
             }
             body {
                 max-width: 600px;
@@ -20,8 +24,8 @@
                 font-family: Verdana,Geneva,sans-serif;
                 line-height: 26px;
 
-                color: #1c1c1c;
-                background-color: #eeeeee;
+                color: var(--light-text-color);
+                background-color: var(--light-background-color);
             }
             a:link {
                 text-decoration: none;
@@ -37,8 +41,8 @@
             }
             @media (prefers-color-scheme: dark) {
                 body {
-                    color: #eeeeee;
-                    background-color: #1c1c1c;
+                    color: var(--dark-text-color);
+                    background-color: var(--dark-background-color);
                 }
                 a:link {
                     color: var(--accent-color);
@@ -55,14 +59,17 @@
             <p>
                 Hi, I'm Colton 👋 Welcome to my website!
             </p>
-            <h2>Work</h2>
+            <h3>Work</h3>
             <p>
                 I'm currently a senior software engineer at <a href="https://www.bitwarden.com">Bitwarden</a>.
             </p>
             <p>
-                I've been working in the software industry for over 10 years, and always have a lot to learn. I value open source software and appreciate working with others who are both passionate and humble.
+                I've been working in the software industry for over 10 years, and always have a lot to learn. I value open source software and working with others who are both passionate and humble.
             </p>
-            <h2>Contact</h2>
+            <p>
+                I'm currently working with <a href="https://www.rust-lang.org">Rust</a>, integrating with platform native API's. Previously, most of my experience has been with back-end systems like web servers, databases, etc. I also have worked on front-ends with web technologies like Angular. I like using the right tool for the job, and learning everything I can about how things work under the covers.
+            </p>
+            <h3>Contact</h3>
             <p>
                 You can find me on <a href="https://www.github.com/coltonhurst">GitHub</a> or <a href="https://www.linkedin.com/in/coltondhurst">LinkedIn</a>.
             </p>
