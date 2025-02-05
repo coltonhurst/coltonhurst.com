@@ -7,25 +7,65 @@
         <meta name="description" content="Colton Hurst's website">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="./main.css">
         <link href=data:, rel=icon>
+        <style>
+            :root {
+                --accent-color: #1E90FF;
+            }
+            body {
+                max-width: 600px;
+                margin: 0px auto 0px auto;
+                padding: 40px 40px 40px 40px;
+
+                font-family: Verdana,Geneva,sans-serif;
+                line-height: 26px;
+
+                color: #1c1c1c;
+                background-color: #eeeeee;
+            }
+            a:link {
+                text-decoration: none;
+                color: var(--accent-color);
+            }
+            a:visited {
+                text-decoration: none;
+                color: var(--accent-color);
+            }
+            .container {
+                padding-left: 20px;
+                border-left: 5px solid var(--accent-color);
+            }
+            @media (prefers-color-scheme: dark) {
+                body {
+                    color: #eeeeee;
+                    background-color: #1c1c1c;
+                }
+                a:link {
+                    color: var(--accent-color);
+                }
+                a:visited {
+                    color: var(--accent-color);
+                }
+            }
+        </style>
     </head>
     <body>
-        <h1>Colton Hurst</h1>
-        <p>
-            following Jesus | writing <a href="https://en.wikipedia.org/wiki/Open-source_software">open-source software</a> | rolling <a href="https://en.wikipedia.org/wiki/Brazilian_jiu-jitsu">bjj</a>
-        </p>
-        <ul class="clean-list">
-            <li><a href="./now/index.html">now</a></li>
-            <li><a href="./projects/index.html">projects</a></li>
-            <li><a href="./talks/index.html">talks</a></li>
-            <!--<li><a href="./writing/index.html">writing</a></li>-->
-            <br>
-            <li><a href="https://www.github.com/coltonhurst">github</a></li>
-            <li><a href="https://git.sr.ht/~kotrunga">sourcehut</a></li>
-            <li><a rel="me" href="https://fosstodon.org/@kotrunga">fosstodon</a></li>
-            <li><a href="https://twitter.com/kotrunga">twitter</a></li>
-            <li><a href="https://www.linkedin.com/in/coltondhurst">linkedin</a></li>
-        </ul>
+        <div class="container">
+            <h1>Colton Hurst</h1>
+            <p>
+                Hi, I'm Colton 👋 Welcome to my website!
+            </p>
+            <h2>Work</h2>
+            <p>
+                I'm currently a senior software engineer at <a href="https://www.bitwarden.com">Bitwarden</a>.
+            </p>
+            <p>
+                I've been working in the software industry for over 10 years, and always have a lot to learn. I value open source software and appreciate working with others who are both passionate and humble.
+            </p>
+            <h2>Contact</h2>
+            <p>
+                You can find me on <a href="https://www.github.com/coltonhurst">GitHub</a> or <a href="https://www.linkedin.com/in/coltondhurst">LinkedIn</a>.
+            </p>
+        </div>
     </body>
 </html>
